@@ -41,14 +41,6 @@ This repository offers practical examples for scaling and hardening agentic AI w
 
 - (`monitoring_dashboard.json`): Import into Grafana to visualize metrics.
 
-3. **Usage Example**:
-
-from caching_layer import cached_llm_call
-
-prompt = "Summarize customer feedback for Q3"
-response = cached_llm_call(prompt)
-print(response)
-
 ## Contributing
 
 Feel free to fork this repository and add examples for other agentic AI scaling patterns, monitoring tools, or deployment scripts.
