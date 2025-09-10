@@ -1,0 +1,7 @@
+{
+  "title": "Agentic AI Monitoring",
+  "panels": [
+    {"type": "graph", "title": "Latency", "targets": [{"expr": "request_latency_ms"}]},
+    {"type": "graph", "title": "Error Rate", "targets": [{"expr": "error_rate"}]}
+  ]
+}
