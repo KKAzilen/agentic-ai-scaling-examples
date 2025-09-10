@@ -1,6 +1,6 @@
 # Agentic AI Scaling Examples
 
-This repository provides example scripts and configurations for scaling and hardening Agentic AI workflows. It is designed to help engineers move from sandbox prototypes to production-ready setups quickly.
+This repository offers practical examples for scaling and hardening agentic AI workflows, focusing on real-world applications and production-readiness.
 
 ## Included Examples
 
@@ -41,6 +41,19 @@ This repository provides example scripts and configurations for scaling and hard
 
 - (`monitoring_dashboard.json`): Import into Grafana to visualize metrics.
 
+3. **Usage Example**:
+
+from caching_layer import cached_llm_call
+
+prompt = "Summarize customer feedback for Q3"
+response = cached_llm_call(prompt)
+print(response)
+
 ## Contributing
 
 Feel free to fork this repository and add examples for other agentic AI scaling patterns, monitoring tools, or deployment scripts.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
