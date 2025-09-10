@@ -33,13 +33,13 @@ This repository provides example scripts and configurations for scaling and hard
 
 3. **Review and run the scripts**:
 
-- 'caching_layer.py': Use as a reference for caching repeated LLM calls.
+- (`caching_layer.py`): Use as a reference for caching repeated LLM calls.
 
-- 'batch_api_caller.py': Run async batches of API requests.
+- (`batch_api_caller.py`): Run async batches of API requests.
 
-- 'load_test_scenarios/locustfile.py': Launch Locust to simulate load.
+- (`load_test_scenarios/locustfile.py`): Launch Locust to simulate load.
 
-- 'monitoring_dashboard.json': Import into Grafana to visualize metrics.
+- (`monitoring_dashboard.json`): Import into Grafana to visualize metrics.
 
 ## Contributing
 
